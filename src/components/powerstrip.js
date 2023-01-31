@@ -37,7 +37,7 @@ class MiniMediaPlayerPowerstrip extends LitElement {
   }
 
   get sourceSize() {
-    return this.config.source === 'icon' || this.hasControls || this.idle;
+    return this.config.source === 'icon' || this.idle;
   }
 
   get soundSize() {
