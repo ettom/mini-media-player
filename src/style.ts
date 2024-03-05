@@ -60,6 +60,13 @@ const style = css`
     --switch-unchecked-color: var(--mmp-text-color);
     --switch-unchecked-button-color: var(--mmp-text-color);
     --switch-unchecked-track-color: var(--mmp-text-color);
+    --mdc-text-field-fill-color: transparent;
+    --mdc-text-field-ink-color: var(--mmp-text-color);
+    --mdc-text-field-idle-line-color: var(--mmp-text-color);
+    --mdc-text-field-label-ink-color: var(--mmp-text-color);
+    --mdc-text-field-hover-line-color: var(--mmp-text-color);
+    --mdc-ripple-color: var(--mmp-text-color);
+    --text-field-padding: 0;
     color: var(--mmp-text-color);
   }
   ha-card {
@@ -188,7 +195,7 @@ const style = css`
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    border-radius: var(--ha-card-border-radius, 0);
+    border-radius: var(--mmp-border-radius, 0);
     overflow: hidden;
   }
   .cover.--prev {
@@ -199,8 +206,6 @@ const style = css`
   }
   ha-card[artwork*='full-cover'].--has-artwork .mmp-player {
     background: linear-gradient(to top, var(--mmp-overlay-color) var(--mmp-overlay-color-stop), transparent 100%);
-    border-bottom-left-radius: var(--ha-card-border-radius, 0);
-    border-bottom-right-radius: var(--ha-card-border-radius, 0);
   }
   ha-card.--has-artwork .cover,
   ha-card.--has-artwork[artwork='cover'] .cover:before {

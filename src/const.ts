@@ -5,6 +5,7 @@ const DEFAULT_HIDE = {
   artwork_border: true,
   icon_state: true,
   sound_mode: true,
+  group_button: false,
   runtime: true,
   runtime_remaining: true,
   volume: false,
@@ -29,7 +30,6 @@ const REPEAT_STATE = {
 };
 
 const ICON = {
-  DEFAULT: 'mdi:cast',
   DROPDOWN: 'mdi:chevron-down',
   GROUP: 'mdi:speaker-multiple',
   MENU: 'mdi:menu-down',
@@ -87,6 +87,7 @@ const MEDIA_INFO = [
   { attr: 'media_series_title' },
   { attr: 'media_season', prefix: 'S' },
   { attr: 'media_episode', prefix: 'E' },
+  { attr: 'media_channel' },
   { attr: 'app_name' },
 ];
 

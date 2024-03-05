@@ -39,6 +39,25 @@ const translations = {
       speaker_management: 'Wiedergabe auf',
     },
   },
+  fi: {
+      placeholder: {
+          tts: 'Teksti puheeksi',
+      },
+      label: {
+          leave: 'Jätä',
+          ungroup: 'Pura ryhmä',
+          group_all: 'Liitä kaikki',
+          send: 'Lähetä',
+          master: 'Master',
+      },
+      state: {
+          idle: 'Tauko',
+          unavailable: 'Ei käytettävissä',
+      },
+      title: {
+          speaker_management: 'Ryhmän hallinta',
+      },
+  },
   fr: {
     placeholder: {
       tts: 'Texte à lire',
@@ -55,6 +74,25 @@ const translations = {
     },
     title: {
       speaker_management: 'Gestion des groupes',
+    },
+  },
+  he: {
+    placeholder: {
+      tts: 'טקסט לדיבור',
+    },
+    label: {
+      leave: 'לעזוב',
+      ungroup: 'ביטול קבוצה',
+      group_all: 'לקבץ את כולם',
+      send: 'שליחה',
+      master: 'ראשי',
+    },
+    state: {
+      idle: 'לא פעיל',
+      unavailable: 'לא זמין',
+    },
+    title: {
+      speaker_management: 'ניהול קבוצות',
     },
   },
   hu: {
@@ -74,6 +112,44 @@ const translations = {
     },
     title: {
       speaker_management: 'Hangszórók csoportosítása',
+    },
+  },
+  it: {
+    placeholder: {
+      tts: 'Conversione testo in voce',
+    },
+    label: {
+      leave: 'Lascia',
+      ungroup: 'Separa',
+      group_all: 'Raggruppa tutti',
+      send: 'Invia',
+      master: 'Master',
+    },
+    state: {
+      idle: 'Inattivo',
+      unavailable: 'Non disponibile',
+    },
+    title: {
+      speaker_management: 'Gestione gruppo',
+    },
+  },
+  is: {
+    placeholder: {
+      tts: 'Texti sem á að segja',
+    },
+    label: {
+      leave: 'Yfirgefa',
+      ungroup: 'Aðskilja',
+      group_all: 'Sameina alla',
+      send: 'Senda',
+      master: 'Stjórnandi',
+    },
+    state: {
+      idle: 'Aðgerðalaus',
+      unavailable: 'Ekki tiltækt',
+    },
+    title: {
+      speaker_management: 'Stjórnun hópa',
     },
   },
   no: {
@@ -106,12 +182,31 @@ const translations = {
       send: 'Wyślij',
     },
     state: {
-      idle: 'nieaktywny',
+      idle: 'brak aktywności',
       unavailable: 'niedostępny',
     },
     title: {
       speaker_management: 'Zarządzanie grupą',
     },
+  },
+  sv: {
+    placeholder: {
+      tts: 'Text till tal',
+    },
+    label: {
+      leave: 'Lämna',
+      ungroup: 'Avgruppera',
+      group_all: 'Gruppera alla',
+      send: 'Skicka',
+      master: 'Master',
+    },
+    state: {
+      idle: "Inaktiv",
+      unavailable: 'Otillgänglig',
+    },
+    title: {
+      speaker_management: 'Gruppstyrning',
+    }
   },
   uk: {
     placeholder: {
@@ -208,6 +303,25 @@ const translations = {
       speaker_management: '组合管理',
     },
   },
+  sk: {
+    placeholder: {
+      tts: 'Prevod textu na reč',
+    },
+    label: {
+      leave: 'Odísť',
+      ungroup: 'Zrušiť zoskupenie',
+      group_all: 'Zoskupiť všetky',
+      send: 'Poslať',
+      master: 'Master',
+    },
+    state: {
+      idle: 'Nečinný',
+      unavailable: 'Nedostupné',
+    },
+    title: {
+      speaker_management: 'Manažment skupiny',
+    },
+  },  
   ca: {
     placeholder: {
       tts: 'Text a veu',
@@ -227,6 +341,63 @@ const translations = {
       speaker_management: 'Gestió del grup',
     },
   },
+  nl: {
+    placeholder: {
+      tts: 'Tekst naar spraak',
+    },
+    label: {
+      leave: 'Verlaten',
+      ungroup: 'Ontgroeperen',
+      group_all: 'Alles groeperen',
+      send: 'Verzenden',
+      master: 'Master',
+    },
+    state: {
+      idle: 'Inactief',
+      unavailable: 'Niet beschikbaar',
+    },
+    title: {
+      speaker_management: 'Groepsbeheer',
+    },
+  },
+  pt: {
+    placeholder: {
+      tts: 'Texto para fala',
+    },
+    label: {
+      leave: 'Sair',
+      ungroup: 'Desagrupar',
+      group_all: 'Agrupar tudo',
+      send: 'Enviar',
+      master: 'Master',
+    },
+    state: {
+      idle: 'Ocioso',
+      unavailable: 'Indisponível',
+    },
+    title: {
+      speaker_management: 'Gerenciamento de grupo',
+    },
+  },
+  cs: {
+    placeholder: {
+      tts: 'Převod textu na řeč',
+    },
+    label: {
+      leave: 'Opustit',
+      ungroup: 'Zrušit seskupení',
+      group_all: 'Seskupit vše',
+      send: 'Poslat',
+      master: 'Master',
+    },
+    state: {
+      idle: 'Nečinný',
+      unavailable: 'Nedostupné',
+    },
+    title: {
+      speaker_management: 'Správa skupiny',
+    },
+  },  
 };
 
 export default translations;
